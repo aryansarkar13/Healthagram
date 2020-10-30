@@ -1,6 +1,6 @@
-# Rakt
+# BloodDrop
 
-A social media platform for easy communication between blood donors and those in need of blood.
+A social media platform for communication between blood donors and those in need of blood.
 Official submission for Version Beta'20 MANIT Bhopal.
 
 ## Overview
@@ -9,14 +9,14 @@ No Proper channel/platform of communication between blood/plasma donors and one 
 
 ## Features
 
-* Should suggest donors near you whose medical information resembles with yours
+* Suggests donors near you whose medical information resembles with yours.
 * Spam protection
 * Privacy-focused
 * Hyperlocal filtering
 * Search and sort people by blood group, location etc.
-* Can have chatting feature
-* Proper authentication system
-* Able to share news feed / story about requirements
+* Personalised chat
+* Authentication
+* Share news feed / story about requirements
 
 ## Technology Stack
 
