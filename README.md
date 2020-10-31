@@ -29,7 +29,7 @@ No Proper channel/platform of communication between blood/plasma donors and one 
   - JavaScript
   
 - Backend
-  - Django
+  - Express
   - MongoDB
 
 - Tools
