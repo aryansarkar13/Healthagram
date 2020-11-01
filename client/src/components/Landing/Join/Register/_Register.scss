@@ -1,0 +1,26 @@
+@import "RegisterField/RegisterField";
+.Register__form {
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+}
+
+.Register__form__submit-btn {
+  border: none;
+  background-color: $primary-blue;
+  border-radius: 30px;
+  padding: 12px 30px;
+  color: #fff;
+  float: left;
+  font-size: 14px;
+  transition: all 0.3s;
+  display: block;
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+  }
+}
+
+.Register__LoginWith__container {
+  margin-top: 45px;
+}

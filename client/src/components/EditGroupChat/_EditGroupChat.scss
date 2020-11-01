@@ -1,0 +1,29 @@
+@import "EditGroupChatForm/EditGroupChatForm";
+@import "EditGroupChatPreview/EditGroupChatPreview";
+
+.EditGroupChat {
+  background-color: $primary-grey;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+
+.EditGroupChat__body {
+  max-width: calc(100vw - 140px);
+  margin: 0 auto;
+  margin-top: 20px;
+  @media (max-width: $navbar-to-mobile-width) {
+    max-width: 100%;
+  }
+}
+
+.EditGroupChat__middle {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+}
+
+.EditGroupChat__middle__error-text {
+  font-weight: 700;
+  font-size: 16px;
+}

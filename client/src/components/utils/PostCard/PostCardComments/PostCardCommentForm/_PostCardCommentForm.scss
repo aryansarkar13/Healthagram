@@ -1,0 +1,43 @@
+.PostCardCommentForm {
+  font-family: Roboto;
+  padding: 25px;
+  border-top: 1px solid #e6ecf5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.PostCardCommentForm__author-thumb {
+  margin-right: 10px;
+  min-width: 28px;
+  max-width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+.PostCardCommentForm__comment-area {
+  padding-right: 60px;
+  min-height: 60px;
+  height: 60px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 1.1rem;
+  color: #515365;
+  line-height: inherit;
+  border: 1px solid #e6ecf5;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  resize: none;
+}
+
+.PostCardCommentForm__post-btn {
+  padding: 0.8rem 2.1rem;
+  font-size: 0.688rem;
+  border-radius: 0.3rem;
+  background-color: $primary-orange;
+  margin-left: 15px;
+  color: #fff;
+  cursor: pointer;
+}

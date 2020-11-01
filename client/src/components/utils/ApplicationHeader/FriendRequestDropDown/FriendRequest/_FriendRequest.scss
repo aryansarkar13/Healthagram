@@ -1,0 +1,71 @@
+.FriendRequest {
+  background-color: #fafbfd;
+  padding: 25px;
+  border-bottom: 1px solid #e6ecf5;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.FriendRequest__author-thumb {
+  height: 34px;
+  width: 34px;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.FriendRequest__author-image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.FriendRequest__notification-event {
+  padding-left: 15px;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.FriendRequest__sender-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.FriendRequest__sender-info {
+  font-size: 12px;
+}
+.FriendRequest__notification-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.FriendRequest__btn {
+  padding: 0.5rem;
+  font-size: 0.688rem;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-out;
+  position: relative;
+  cursor: pointer;
+  span {
+    position: absolute;
+    color: #fff;
+    top: 2px;
+    right: 4px;
+  }
+}
+
+.FriendRequest__btn--accept {
+  background-color: $primary-blue;
+}
+
+.FriendRequest__btn--reject {
+  background-color: #9a9fbf;
+  margin-left: 8px;
+}

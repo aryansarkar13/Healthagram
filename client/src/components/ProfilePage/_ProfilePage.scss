@@ -1,0 +1,50 @@
+@import "UIBlock/UIBlock";
+@import "InfiniteProfileFeed/InfiniteProfileFeed";
+
+.ProfilePage {
+  background-color: #edf2f6;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+
+.ProfilePage--middle {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+}
+
+.ProfilePage__body {
+  max-width: calc(100% - 140px);
+  margin: 0 auto;
+  @media (max-width: $sidenav-disappear-width) {
+    max-width: 100%;
+  }
+}
+
+.ProfilePage__header-image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.ProfilePage__bottom-header-profile {
+  margin-top: 20px;
+}
+
+.ProfilePage__user-posts {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #515365;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.ProfilePage__users {
+  .PostCard:first-child {
+    margin-top: 0px;
+  }
+}

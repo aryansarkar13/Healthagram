@@ -1,0 +1,63 @@
+@import "ChatSection/ChatSection";
+.PrivateChat {
+  background-color: $primary-grey;
+  min-height: calc(100vh - 70px);
+  position: relative;
+}
+
+.PrivateChat__bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 200px;
+  background-color: $primary-blue;
+}
+
+.PrivateChat__body-wrapper {
+  width: calc(100% - 140px);
+  margin: 0 auto;
+  @media (max-width: $sidenav-disappear-width) {
+    width: 100%;
+  }
+}
+
+.PrivateChat__body {
+  display: flex;
+  position: relative;
+  flex: 1;
+  width: 100%;
+  z-index: 10;
+  padding-top: 60px;
+  min-height: 85vh;
+
+  @media (min-width: $sidenav-disappear-width) and( max-width: 950px) {
+    height: 75vh;
+  }
+
+  @media (max-width: $sidenav-disappear-width) {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+  }
+}
+
+.PrivateChat__container {
+  @media (max-width: $sidenav-disappear-width) {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .row {
+    @media (max-width: $sidenav-disappear-width) {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+    }
+  }
+  .col {
+    @media (max-width: $sidenav-disappear-width) {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+    }
+  }
+}

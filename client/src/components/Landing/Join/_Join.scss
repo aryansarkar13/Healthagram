@@ -1,0 +1,35 @@
+@import "Register/Register";
+@import "Login/Login";
+@import "LoginWith/LoginWith";
+.Join {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 6px 6px;
+  width: 90%;
+  margin: 0 0 24px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.Join__tabs {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.Join__tabs__tab {
+  width: 50%;
+  margin: 0px !important;
+  text-align: center;
+  padding: 15px 10px;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+}
+
+.Join__tabs__tab--unselected {
+  background-color: rgb(238, 65, 65);
+}

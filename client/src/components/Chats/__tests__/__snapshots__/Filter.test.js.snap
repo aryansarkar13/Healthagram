@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Filter component should not regress 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Filter
+    countries={
+        Array [
+            Object {
+              "_id": "Nepal",
+            },
+            Object {
+              "_id": "Singapore",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <select>
+          <option
+                    selected={true}
+                    value="country"
+          >
+                    Select By Country
+          </option>
+          <option
+                    value="Nepal"
+          >
+                    Nepal
+          </option>
+          <option
+                    value="Singapore"
+          >
+                    Singapore
+          </option>
+</select>,
+        <button>
+          Apply
+</button>,
+      ],
+      "className": "Filter",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option
+              selected={true}
+              value="country"
+>
+              Select By Country
+</option>,
+            Array [
+              <option
+                value="Nepal"
+>
+                Nepal
+</option>,
+              <option
+                value="Singapore"
+>
+                Singapore
+</option>,
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Select By Country",
+              "selected": true,
+              "value": "country",
+            },
+            "ref": null,
+            "rendered": "Select By Country",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Nepal",
+              "value": "Nepal",
+            },
+            "ref": null,
+            "rendered": "Nepal",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Singapore",
+              "value": "Singapore",
+            },
+            "ref": null,
+            "rendered": "Singapore",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Apply",
+        },
+        "ref": null,
+        "rendered": "Apply",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <select>
+            <option
+                        selected={true}
+                        value="country"
+            >
+                        Select By Country
+            </option>
+            <option
+                        value="Nepal"
+            >
+                        Nepal
+            </option>
+            <option
+                        value="Singapore"
+            >
+                        Singapore
+            </option>
+</select>,
+          <button>
+            Apply
+</button>,
+        ],
+        "className": "Filter",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                selected={true}
+                value="country"
+>
+                Select By Country
+</option>,
+              Array [
+                <option
+                  value="Nepal"
+>
+                  Nepal
+</option>,
+                <option
+                  value="Singapore"
+>
+                  Singapore
+</option>,
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Select By Country",
+                "selected": true,
+                "value": "country",
+              },
+              "ref": null,
+              "rendered": "Select By Country",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Nepal",
+                "value": "Nepal",
+              },
+              "ref": null,
+              "rendered": "Nepal",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Singapore",
+                "value": "Singapore",
+              },
+              "ref": null,
+              "rendered": "Singapore",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Apply",
+          },
+          "ref": null,
+          "rendered": "Apply",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

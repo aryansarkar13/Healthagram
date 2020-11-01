@@ -1,0 +1,23 @@
+.EditGroupChatForm__UploadButton {
+  padding: 10px 10px;
+}
+
+.EditGroupChatForm__UploadButton__body {
+  padding: 10px 10px;
+  background-color: $primary-blue;
+  display: inline-block;
+  color: #fff;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.EditGroupChatForm__UploadButton__icon {
+  font-size: 20px !important;
+}
+
+.EditGroupChatForm__UploadButton__text {
+  font-size: 0.9rem;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}

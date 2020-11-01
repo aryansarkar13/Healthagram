@@ -1,0 +1,75 @@
+@import "NewsFeedFormAction/NewsFeedFormAction";
+@import "NewsFeedImage/NewsFeedImage";
+
+.NewsFeedForm {
+  width: 100%;
+  max-width: $newsfeed-card-max-width;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+.NewsFeedForm__header {
+  background-color: #fafbfd;
+  border-bottom: none;
+}
+
+.NewsFeedForm__header__nav-item {
+  padding: 20px;
+  color: #515365;
+  border-right: 1px solid #e6ecf5;
+  display: inline-flex;
+  background-color: #fff;
+  align-items: center;
+  span {
+    font-size: 0.8125rem;
+    margin-left: 10px;
+  }
+}
+
+.NewsFeedForm__main-area {
+  position: relative;
+}
+
+.NewsFeedForm__author-thumb {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.NewsFeedForm__author-thumb__image {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.NewsFeedForm__label-area {
+  position: absolute;
+  left: 70px;
+  top: 18px;
+  color: #495057;
+  line-height: 25px;
+  font-size: 0.875rem;
+  transition: 0.4s all ease-in-out;
+}
+
+.NewsFeedForm__label-area--shrink {
+  font-size: 0.78rem;
+  top: 2px;
+}
+
+.NewsFeedForm__text-area {
+  padding: 1.5rem 1.1rem 0.2rem;
+  padding-left: 70px;
+  width: 100%;
+  min-height: 160px;
+  resize: none;
+  border-radius: 0;
+  border: none;
+  font-family: Roboto;
+}
+
+.NewsFeedForm__text-area--bottom-border {
+  border-bottom: 1px solid #e6ecf5;
+}

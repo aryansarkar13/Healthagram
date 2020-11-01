@@ -1,0 +1,44 @@
+.PrivateChat__SingleGroupMessage {
+  display: flex;
+  margin-top: 10px;
+}
+
+.PrivateChat__SingleGroupMessage__image-container {
+  align-self: flex-end;
+}
+
+.PrivateChat__SingleGroupMessage__image {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.PrivateChat__SingleGroupMessage__body__name {
+  align-self: center;
+  margin-left: 10px;
+}
+
+.PrivateChat__SingleGroupMessage__body__label-name {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: 1px;
+  overflow: hidden;
+  padding-left: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.PrivateChat__SingleGroupMessage__body__message {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 1.3em;
+}
+.PrivateChat__SingleGroupMessage__body__message--grey {
+  background-color: #3c4252;
+}
+.PrivateChat__SingleGroupMessage__body__message--blue {
+  background-color: $primary-blue;
+}

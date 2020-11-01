@@ -1,0 +1,15 @@
+@import "PostCardCommentItem/PostCardCommentItem";
+@import "PostCardCommentForm/PostCardCommentForm";
+
+.PostCardComments {
+  width: 100%;
+  max-width: $newsfeed-card-max-width;
+  margin: 0 auto;
+  transition: 0.2s all ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.PostCardComments--visible {
+  height: 100%;
+}

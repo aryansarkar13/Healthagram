@@ -1,0 +1,21 @@
+------------------------------------------------------------
+----------Regarding Image Uploading and Fetching--------------
+------------------------------------------------------------
+I have used cloudinary for image storing. If you have your own 
+version of cloudinary you should change the url in various 
+places for remote image fetching. I have not stored that 
+url in a global variable because I will need the image of different
+settings on different pages.Here are the files you need to change
+
+1. components/Home/ChatGroups/ChatGroups.js
+2. components/Settings/MainProfile/MainProfile.js
+
+---------------------------------------------------------
+----------------Possible software break-----------------
+--------------------------------------------------------
+User image can either be fetched from cloudinary or it is provided
+by facebook or google. To differentiate between them I am doing the check
+if imageLink includes 'chat-app'. If you change the image upload folder
+it might break in some places.
+
+One such file is components/Settings/SideBar/SideBar.js

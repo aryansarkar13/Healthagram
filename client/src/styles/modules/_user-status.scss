@@ -1,0 +1,22 @@
+.icon-status {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.icon-status--online {
+  background-color: #32e4cd;
+}
+
+.icon-status--away {
+  background-color: #ffd52f;
+}
+
+.icon-status--disconnected {
+  background-color: #ff4f60;
+}
+
+.icon-status--invisible {
+  background-color: #cbdfee;
+}

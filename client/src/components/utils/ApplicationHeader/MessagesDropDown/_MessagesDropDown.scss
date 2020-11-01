@@ -1,0 +1,59 @@
+@import "MessageRequest/MessageRequest";
+
+.globe-icon {
+  font-size: 15px !important;
+}
+
+.MessagesDropDown {
+  position: relative;
+  top: 2px;
+}
+.MessagesDropDown__total-notifications {
+  position: absolute;
+  left: 50%;
+  top: 2px;
+  font-size: 13px;
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  background-color: $primary-purple;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  z-index: 99;
+}
+.MessagesDropDown__friend-requests-header {
+  font-size: 20px;
+}
+
+.MessagesDropDown__friend-requests-list {
+  list-style: none;
+}
+
+.MessagesDropDown__block-container {
+  padding: 10px 25px;
+  line-height: 1;
+  border-bottom: 1px solid #e6ecf5;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+.MessagesDropDown__block-title {
+  float: left;
+  font-size: 11px;
+}
+
+.MessagesDropDown__block-btn {
+  display: inline-block;
+  float: right;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.MessagesDropDown__no-message {
+  padding: 10px 20px;
+}

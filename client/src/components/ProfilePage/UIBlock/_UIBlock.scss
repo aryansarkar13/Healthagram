@@ -1,0 +1,16 @@
+@import "ProfileSection/ProfileSection";
+
+.ProfilePage__ui-block {
+  position: relative;
+  padding-top: 40px;
+}
+
+.ProfilePage__top-header-thumb {
+  background: url("./assets/images/top-header3.jpg");
+  height: 500px;
+  background-size: 100px 200px no-repeat;
+
+  @media (max-width: 940px) {
+    height: 250px;
+  }
+}

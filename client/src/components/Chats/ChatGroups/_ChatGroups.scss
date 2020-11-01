@@ -1,0 +1,17 @@
+@import "CreateChatGroup/CreateChatGroup";
+@import "ChatGroup/ChatGroup";
+
+.ChatGroups__CreateChatGroup__section {
+  @include for-phone-only {
+    display: none;
+  }
+}
+
+.ChatGroups__container {
+  .col-md-3 {
+    @media (min-width: 576px) and(max-width: 1200px) {
+      max-width: 50% !important;
+      flex: 0 0 50% !important;
+    }
+  }
+}

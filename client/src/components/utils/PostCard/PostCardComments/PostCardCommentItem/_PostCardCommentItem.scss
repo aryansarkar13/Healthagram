@@ -1,0 +1,51 @@
+.PostCardCommentItem {
+  padding: 25px;
+  font-family: Roboto;
+  border-bottom: 1px solid #e6ecf5;
+  background-color: #fafbfd;
+  position: relative;
+}
+
+.PostCardCommentItem__author-area {
+  margin-bottom: 20px;
+}
+
+.PostCardCommentItem__author-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+.PostCardCommentItem__date-area {
+  display: inline-block;
+}
+
+.PostCardCommentItem__author-name {
+  color: #515365;
+  font-size: 0.875rem;
+  transition: all 0.15s ease;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.3;
+  cursor: pointer;
+  &:hover {
+    color: $primary-orange;
+  }
+}
+
+.PostCardCommentItem__post-time {
+  color: #888da8;
+  line-height: 19px;
+  font-size: 0.8125rem;
+}
+
+.PostCardCommentItem__actual-post {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #888da8;
+  padding-left: 38px;
+  line-height: 21px;
+}

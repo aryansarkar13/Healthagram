@@ -1,0 +1,21 @@
+@import "SingleGroupMessage/SingleGroupMessage";
+
+.PrivateChat__ChatMessage {
+  height: 300px;
+  box-sizing: border-box;
+  padding: 16px 10px 20px 40px;
+  flex-grow: 1;
+  overflow: scroll;
+  @media (max-width: $navbar-to-mobile-width) {
+    padding: 10px 10px;
+  }
+}
+
+.PrivateChat__ChatMessage__messages {
+  list-style: none;
+  position: relative;
+}
+
+.PrivateChat__ChatMessage__no-message {
+  color: $primary-dark;
+}

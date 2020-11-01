@@ -1,0 +1,82 @@
+@import "ImageUpload/ImageUpload";
+
+.GroupChatForm__body {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #e6ecf5;
+  margin-bottom: 15px;
+
+  @media (max-width: $sidenav-disappear-width) {
+    margin-top: 15px;
+  }
+}
+.GroupChatForm__ui-block {
+  padding: 23px 25px 18px;
+  line-height: 1;
+  border-bottom: 1px solid #e6ecf5;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+.GroupChatForm__ui-block__title {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #515365;
+  font-size: 0.875rem;
+}
+.GroupChatForm__content {
+  padding: 10px 10px;
+}
+
+.GroupChatForm__form-group {
+  margin-bottom: 1.4rem;
+  position: relative;
+}
+
+.GroupChatForm__form-group__label {
+  position: absolute;
+  pointer-events: none;
+  transition: 0.3s ease all;
+  top: 10px;
+  font-size: 11px;
+  line-height: 1.07143;
+  left: 30px;
+  color: #888da8;
+}
+
+.GroupChatForm__form-group__input {
+  padding: 1.5rem 1.1rem 0.5rem;
+  padding-left: 30px;
+  line-height: 1.75;
+  color: #515365;
+  font-size: 0.875rem;
+  display: block;
+  width: 100%;
+  border: 1px solid #e6ecf5;
+  border-radius: 0.25rem;
+  transition: all 0.15s, ease-in-out;
+}
+
+.GroupChatForm__create-btn-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.GroupChatForm__create-btn-container__button {
+  padding: 10px 10px;
+  background-color: $primary-blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.GroupChatForm__error-message {
+  padding: 5px 10px;
+  color: $danger;
+}

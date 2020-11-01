@@ -1,0 +1,19 @@
+@import "ChatGroups/ChatGroups";
+@import "ManageGroups/ManageGroups";
+@import "HomeActionBar/HomeActionBar";
+
+.Chats {
+  background-color: $primary-grey;
+  min-height: 100vh;
+
+  margin: 0 auto;
+}
+
+.Chats__body {
+  width: 100%;
+  margin: 0 auto;
+
+  @include for-tablet-portrait-up {
+    width: calc(100% - 140px);
+  }
+}

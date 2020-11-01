@@ -1,0 +1,85 @@
+.DropDown {
+  position: relative;
+  display: inline-block;
+  padding: $navitem-paddingY $navitem-paddingX;
+  color: $navitem-color;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.DropDown__items-container {
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #49545a;
+  text-align: left;
+  z-index: 999;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(55, 63, 67, 0.35);
+  border-radius: 0.25rem;
+  position: absolute;
+}
+
+.DropDown__items-container--right {
+  top: calc(100%);
+  right: -12px;
+  width: 230px;
+}
+
+.DropDown__items-container--middle {
+  top: 45px;
+  right: -165px;
+  width: 380px;
+  padding: 0 0 70px;
+  @media (max-width: $navbar-to-mobile-width) {
+    position: fixed;
+    width: 95vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 130px;
+  }
+}
+
+.DropDown__triangle-right {
+  &::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: -7px;
+    border-top: none;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    right: 25px;
+  }
+}
+.DropDown__triangle-middle {
+  &:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: -7px;
+    right: 50%;
+    margin-right: -3px;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+
+    //In the small screen it is automatically converted to left
+    @media (max-width: $navbar-to-mobile-width) {
+      display: none;
+    }
+  }
+}
+
+.DropDown__button-container__text {
+  color: #fff;
+  i {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,28 @@
+.GroupSearch {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  flex-grow: 3;
+
+  @media (max-width: $sidenav-disappear-width) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.GroupSearch__input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 0.25rem;
+}
+.GroupSearch__search-btn {
+  align-items: center;
+  background-color: #d7d9e5;
+  width: 35px;
+  padding: 10px 0px;
+  color: white;
+  cursor: pointer;
+}

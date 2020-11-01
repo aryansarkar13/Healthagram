@@ -1,0 +1,52 @@
+.PersonalInfo {
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+.PersonalInfo__block-title-container {
+  padding: 23px 25px 18px;
+  line-height: 1;
+  border-bottom: 1px solid #e6ecf5;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+.PersonalInfo__block-title {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #515365;
+  font-size: 0.875rem;
+}
+
+.PersonalInfo__content-list {
+  list-style: none;
+  padding: 24px 23px 23px;
+}
+
+.PersonalInfo__single-content {
+  padding: 15px 0;
+}
+
+.PersonalInfo__single-content__title {
+  margin-right: 30px;
+  float: left;
+  width: 30%;
+  color: #515365;
+  font-weight: 500;
+  font-size: 0.812rem;
+  line-height: 1.5;
+}
+
+.PersonalInfo__single-content__text {
+  color: #888da8;
+  display: block;
+  overflow: hidden;
+  font-size: 0.812rem;
+  font-weight: 400;
+  line-height: 1.5;
+}

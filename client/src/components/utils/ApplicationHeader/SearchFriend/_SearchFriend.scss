@@ -1,0 +1,67 @@
+.SearchFriend {
+  min-height: $header-height;
+  width: 250px;
+  background-color: #ec524b;
+  float: left;
+  position: relative;
+
+  @media (max-width: $navbar-to-mobile-width) {
+    width: 100%;
+  }
+
+  @media (min-width: 1260px) {
+    width: 500px;
+  }
+}
+
+.SearchFriend:before {
+  font-family: "Font Awesome\ 5 Free";
+  content: "\f002";
+  position: absolute;
+  font-size: 17px;
+  font-weight: 900;
+  top: 37%;
+  right: 11px;
+  color:white;
+}
+.SearchFriend__search-bar {
+  height: $header-height;
+  display: inline-block;
+  background-color: #ec524b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media (max-width: $navbar-to-mobile-width) {
+    width: 80%;
+  }
+}
+.SearchFriend__search-input {
+  width: 450px;
+  opacity: 1;
+  height: 100%;
+  border: none;
+  padding: 13px 15px;
+  background-color: #ffffff;
+
+  @media (max-width: $navbar-to-mobile-width) {
+    width: 100%;
+  }
+}
+
+.FindFriend {
+  padding: 27px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  height: $header-height;
+  display: inline-block;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    color: $primary-orange;
+  }
+
+  @media (max-width: 1020px) {
+    display: none;
+  }
+}

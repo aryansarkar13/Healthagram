@@ -1,0 +1,55 @@
+.OnlineOfflineFriends {
+  position: fixed;
+  width: 70px;
+  top: 70px;
+  right: 0;
+  background-color: #fff;
+  bottom: 0px;
+  z-index: 99;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
+
+.OnlineOfflineFriends__chat-icon {
+  background-color: $primary-purple;
+  padding: 20px 22px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+}
+
+.ChatUser {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ChatUser__user {
+  cursor: pointer;
+  padding: 13px 17px;
+}
+
+.ChatUser__author-thumb {
+  height: 40px;
+  width: 40px;
+  margin-right: 0;
+  overflow: hidden;
+  vertical-align: top;
+  position: relative;
+
+  span {
+    position: absolute;
+    z-index: 999;
+    top: 2px;
+    left: 0;
+  }
+}
+
+.ChatUser__image {
+  border-radius: 100%;
+  width: 100%;
+  display: inline-block;
+}

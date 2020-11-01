@@ -1,0 +1,51 @@
+@import "FriendRequest/FriendRequest";
+@import "FriendRequestAccepted/FriendRequestAccepted";
+
+.notification-icon {
+  font-size: 15px !important;
+}
+
+.FriendRequestDropDown {
+  position: relative;
+  top: 2px;
+}
+.FriendRequestDropDown__total-notifications {
+  position: absolute;
+  left: 50%;
+  top: 2px;
+  z-index: 99;
+  font-size: 10px;
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  background-color: $primary-blue;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.FriendRequestDropDown__block-container {
+  padding: 10px 25px;
+  line-height: 1;
+  border-bottom: 1px solid #e6ecf5;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+.FriendRequestDropDown__block-title {
+  float: left;
+  font-size: 11px;
+}
+
+.FriendRequestDropDown__block-btn {
+  display: inline-block;
+  float: right;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.FriendRequestDropDown__no-friend-message {
+  padding: 10px 10px;
+}

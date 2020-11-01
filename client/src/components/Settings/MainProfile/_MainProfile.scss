@@ -1,0 +1,29 @@
+@import "ProfileSignup/ProfileSignup";
+
+.MainProfile {
+  min-height: calc(100vh - 70px);
+  max-width: calc(100vw - 140px);
+  background-color: $primary-grey;
+  margin: 0 auto;
+  padding-top: 40px;
+
+  @media (max-width: $sidenav-disappear-width) {
+    max-width: 100%;
+  }
+}
+
+.MainProfile--middle {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+}
+
+.MainProfile__container {
+  div[class^="col-"] {
+    @media (max-width: 900px) {
+      max-width: 100% !important;
+      flex: 0 0 100%;
+    }
+  }
+}

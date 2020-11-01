@@ -1,0 +1,39 @@
+.MessageRequest {
+  margin-top: 5px;
+  padding: 25px;
+  border-bottom: 1px solid #e6ecf5;
+}
+
+.MessageRequest__author-thumb {
+  height: 34px;
+  width: 34px;
+  display: inline-block;
+}
+.MessageRequest__author-image {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.MessageRequest__notification-event {
+  width: 75%;
+  font-size: 12px;
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.MessageRequest__sender-name {
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.15s ease;
+  &:hover {
+    color: $primary-orange;
+  }
+}
+
+.MessageRequest__notification-icon {
+  display: inline-block;
+  vertical-align: top;
+}

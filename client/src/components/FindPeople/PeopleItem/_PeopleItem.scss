@@ -1,0 +1,82 @@
+.PeopleItem {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #e6ecf5;
+  margin-bottom: 85px;
+  font-family: Roboto;
+
+  @media (max-width: 1200px) {
+    margin-bottom: 85px;
+  }
+}
+
+.PeopleItem__content {
+  padding: 0 25px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.PeopleItem__avatar {
+  margin-top: -49px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.PeopleItem__author-thumb {
+  width: 98px;
+  height: 98px;
+  margin: 0 auto 10px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+}
+.PeopleItem__author-content {
+  margin-bottom: 10px;
+}
+.PeopleItem__author-image {
+  width: 100%;
+  border-radius: 100%;
+}
+.PeopleItem__author-name {
+  color: #515365;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.PeopleItem__author-country {
+  font-size: 0.812rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888da8;
+}
+
+.PeopleItem__info-container {
+  margin-bottom: 35px;
+}
+
+.PeopleItem__info {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.PeopleItem__info__content {
+  color: #515365;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.PeopleItem__info__title {
+  color: #888da8;
+  font-size: 0.812rem;
+}
+.PeopleItem__control {
+  background-color: $primary-blue;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 2%;
+  cursor: pointer;
+  padding: 10px 0px;
+}

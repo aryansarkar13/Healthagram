@@ -1,0 +1,67 @@
+.EditGroupChatPreview {
+  background-color: white;
+  box-sizing: border-box;
+  height: 350px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.EditGroupChatPreview__header-container {
+  padding: 23px 25px 18px;
+  line-height: 1;
+  border-bottom: 1px solid #e6ecf5;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 40px;
+}
+
+.EditGroupChatPreview__header-container__title {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #515365;
+  font-size: 0.875rem;
+}
+
+.EditGroupChatPreview__avatar {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.EditGroupChatPreview__avatar__image-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.EditGroupChatPreview__avatar__image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.EditGroupChatPreview__author-content__name {
+  color: $primary-black;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.EditGroupChatPreview__author-content__country {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888da8;
+}
+
+.GroupChatPreview__favourites {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888da8;
+}

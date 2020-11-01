@@ -1,0 +1,17 @@
+.ProfileSection__menu {
+  list-style: none;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+
+  @include for-tablet-landscape-up {
+    display: flex;
+  }
+}
+
+.ProfileSection__menu-item {
+  color: #515365;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+}

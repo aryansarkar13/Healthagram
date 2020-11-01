@@ -1,0 +1,19 @@
+.RegisterField {
+  background-color: #424242;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 30px;
+  margin-bottom: 15px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.RegisterField__red-text {
+  color: $danger;
+}

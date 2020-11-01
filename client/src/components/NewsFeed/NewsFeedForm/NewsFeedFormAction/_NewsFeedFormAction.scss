@@ -1,0 +1,36 @@
+$post-btn-color: #ff763a;
+
+.NewsFeedFormAction {
+  padding: 20px 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NewsFeedFormAction__dropzone {
+  display: block;
+}
+
+.NewsFeedFormAction__image-upload-btn {
+  cursor: pointer;
+}
+
+.NewsFeedFormAction__post-btn {
+  background-color: $post-btn-color;
+  border: 1px solid;
+  border-color: $post-btn-color;
+  padding: 0.8rem 2.1rem;
+  font-size: 0.688rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  user-select: none;
+}
+
+.NewsFeedFormAction__post-btn--disabled {
+  background-color: lighten($post-btn-color, 50%);
+  border-color: lighten($post-btn-color, 50%);
+}
