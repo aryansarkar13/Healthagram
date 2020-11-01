@@ -1,6 +1,6 @@
 # Healthagram
 
-A social media support app for making blood donation more easy, accessible, convenient and safe. 
+A social media support app for making blood donation more easy, accessible, convenient and safe.<br>
 *Official submission for Version Beta'20 MANIT Bhopal.*
 
 ## Overview
@@ -19,6 +19,7 @@ We have often faced this situation when our loved ones meet some untimely accide
 * Authentication
 * Share news feed / story about requirements
 * Change your active status if one isn't available to donate at the moment
+* Create events/support group
 
 ## Technology Stack
 
