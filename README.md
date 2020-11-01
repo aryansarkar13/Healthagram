@@ -46,6 +46,18 @@ Coming Soon!
 Find our project presentation [here](https://www.google.com)
 
 ## Screenshots
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-04-13.png)
+
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-05-11.png)
+
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-05-23.png)
+
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-06-00.png)
+
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-06-13.png)
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-07-41.png)
+
+![alt text](https://github.com/aryansarkar13/beta11_teamRocket/blob/main/screenshots/Screenshot%20from%202020-11-01%2011-08-01.png)
 
 ## Our Team
 
