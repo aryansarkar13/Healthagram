@@ -1,11 +1,11 @@
-# BloodDrop
+# Healthagram
 
-A social platform connecting those who need blood or plasma to the donors. The platform acts as a common ground for the donors and the recievers and makes it really easy for everyone to help someone in need out there. It also lets you know about the events (like blood camps) happening around you.
+A social media support app for making blood donation more easy, accessible, convenient and safe. 
 *Official submission for Version Beta'20 MANIT Bhopal.*
 
 ## Overview
 
-"No Proper channel/platform of communication between blood/plasma donors and one who are in need. Create a platform which shall be used as a platform between donors and receivers."
+We have often faced this situation when our loved ones meet some untimely accident/illness/disease when they require blood to save their life. A platform to make this hustle of blood donation was a very needed one. So, we bring a social media styled online platform Healthagram to provide a plaftor for everyone to donate and receieve blood without any hustle and to build a community of responsible citizens and spreading awareness of blood donation. You can search for donors, create events for blood donation, add donors/recipients as friends and chat, post donation requests/stories/motivational posts, etc."
 
 ## Features
 
@@ -25,13 +25,15 @@ A social platform connecting those who need blood or plasma to the donors. The p
 ### Web Technology
 
 - Frontend
-  - React
+  - React.js
+  - Redux
   - HTML
   - CSS
   - JavaScript
   
 - Backend
-  - Express
+  - Node.js
+  - Express.js
   - MongoDB
 
 - Tools
@@ -40,8 +42,14 @@ A social platform connecting those who need blood or plasma to the donors. The p
 
 ## Setup
 
-Coming Soon! 
+* git clone the repository.
+* create a MongoDB instance
+* run `npm install` in the root directory and again in the client folder. 
+* run 'concurrently \"npm run server \" \"npm run client \"`
+* the local host starts on your default browswer
 - Voila, explore and enjoy!
+
+Note - Additional steps needed if you are running a windows system. (Pro tip - Switch to Linux :P)
 
 ## Presentation
 
