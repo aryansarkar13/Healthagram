@@ -4,14 +4,18 @@ const User = mongoose.model("users");
 module.exports = router => {
   router.get("/api/findpeople/:searchText", async (req, res) => {
     console.log("Find people have been called", req.params.searchText);
+    console.log("hello " + req.params);
     const regex = `^${req.params.searchText}`;
     try {
       const people = await User.find({
         $or: [
-          { username: { $regex: regex, $options: "i" } },
           {
-            fullname: { $regex: regex, $options: "i" }
-          }
+            blood_group: { $regex: regex, $options: "i" }
+          },
+          {
+            locality: { $regex: regex, $options: "i" }
+          },
+          
         ]
       });
       console.log(people);

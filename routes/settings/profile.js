@@ -31,6 +31,9 @@ module.exports = router => {
           fullname: req.body.fullname,
           description: req.body.description,
           blood_group: req.body.blood_group,
+          locality: req.body.locality,
+          latitude: req.body.latitude,
+          longitude: req.body.longitude,
           gender: req.body.gender,
           userImage: req.body.userImage,
           country: req.body.country

@@ -99,7 +99,6 @@ module.exports = router => {
     //for receiver
     try {
       const receiver = await User.findOne({ username: req.body.receiver });
-
       const newMessage = new Message();
       newMessage.sender = req.user._id;
       newMessage.receiver = receiver._id;
